@@ -6,3 +6,4 @@ services:
       - ./projects:/projects
     environment:
       - USER=joe
+    working_dir: /projects
